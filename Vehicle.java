@@ -1,6 +1,10 @@
 public class Vehicle{
-	private	PetroEngine PE;
+	
 	public static void main(String args[]) {
-		system.out.println("Hello World");
+		PetrolEngine PE = new PetrolEngine;
+		PE.start();
+		
+		DeiselEngine DE = new DeiselEngine;
+		DE.start();
 	}
 }
