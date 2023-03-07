@@ -8,5 +8,9 @@ public class Vehicle{
 		DeiselEngine DE = new DeiselEngine;
 		DE.start();
 		DE.stop();
+		
+		ElectricEngine EE = new ElectricEngine;
+		EE.start();
+		EE.stop();
 	}
 }
